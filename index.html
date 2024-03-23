@@ -1,4 +1,4 @@
-<!doctype html>
+<!DOCTYPE html>
 <html lang="en">
   <head>
     <meta charset="UTF-8" />
@@ -12,12 +12,15 @@
       href="https://fonts.googleapis.com/css2?family=El+Messiri:wght@400..700&family=Ubuntu:wght@300;400;500;700&display=swap"
       rel="stylesheet"
     />
-    <script src="https://kit.fontawesome.com/cc61dadd4d.js" crossorigin="anonymous"></script>
+    <script
+      src="https://kit.fontawesome.com/cc61dadd4d.js"
+      crossorigin="anonymous"
+    ></script>
     <script src="./scripts/script.js" defer></script>
   </head>
   <body class="text-charcoal-gray font-ubuntu bg-rosy-brown">
     <main>
-<!-- HOME -->
+      <!-- HOME -->
       <section id="home" class="overflow-hidden">
         <!-- HEADER -->
         <header class="absolute top-0 left-0 w-full z-10">
@@ -27,11 +30,33 @@
             Bacsur Viktória
           </div>
           <nav class="bg-rosy-brown">
-            <div class="flex mx-auto w-3/6 justify-between max-md:w-4/6 max-sm:w-5/6">
-              <button class="py-3 w-36 menus" onclick="showSection('about')">About</button>
-              <button class="py-3 w-36 menus" onclick="showSection('skills')">Skills</button>
-              <button class="py-3 w-36 menus" onclick="showSection('portfolio')">Portfolio</button>
-              <button class="py-3 w-36 menus" onclick="showSection('contact')">Contact</button>
+            <div
+              class="flex mx-auto w-3/6 justify-between max-md:w-4/6 max-sm:w-5/6 max-sm:text-sm"
+            >
+              <button
+                class="py-3 w-36 menus mx-auto"
+                onclick="showSection('about')"
+              >
+                About
+              </button>
+              <button
+                class="py-3 w-36 menus mx-auto"
+                onclick="showSection('skills')"
+              >
+                Skills
+              </button>
+              <button
+                class="py-3 w-36 menus mx-auto"
+                onclick="showSection('portfolio')"
+              >
+                Portfolio
+              </button>
+              <button
+                class="py-3 w-36 menus mx-auto"
+                onclick="showSection('contact')"
+              >
+                Contact
+              </button>
             </div>
           </nav>
         </header>
@@ -55,22 +80,22 @@
             <div class="font-ubuntu text-5xl text-rosy-brown z-10 absolute top-3/4 right-1/4">designer</div> -->
       </section>
 
-<!-- ABOUT -->
+      <!-- ABOUT -->
       <section class="mySections" id="about">
         <div class="absolute w-full">
           <img
             src="./img/title_bg_dark.png"
             alt="title background"
-            class="max-2xl:w-96 max-md:w-64 mx-auto"
+            class="max-2xl:w-96 max-md:w-64 max-sm:w-48 mx-auto"
           />
         </div>
         <div
-          class="text-rosy-brown font-el-messiri font-semibold text-7xl max-2xl:text-5xl max-md:text-4xl text-center h-1/4 max-2xl:h-1/6 max-md:h-24 w-full absolute pt-20 max-2xl:pt-[3.2rem] max-md:pt-8"
+          class="text-rosy-brown font-el-messiri font-semibold text-7xl max-2xl:text-5xl max-md:text-4xl text-center h-1/4 max-2xl:h-1/6 max-md:h-24 w-full absolute pt-20 max-2xl:pt-[3.2rem] max-md:pt-8 max-sm:text-2xl max-sm:pt-6"
         >
           About
         </div>
         <div
-          class="relative mx-auto text-justify top-64 text-2xl max-2xl:top-48 max-xl:text-xl max-xl:top-40 max-md:top-32 max-md:text-base max-sm:text-sm max-sm:top-24 w-4/5"
+          class="relative mx-auto text-justify top-64 text-2xl max-2xl:top-48 max-xl:text-xl max-xl:top-40 max-md:top-32 max-md:text-base max-sm:text-sm w-4/5"
         >
           I’m Viktória a passionate web designer and front-end developer based
           in Szeged, Hungary, with a love for crafting beautiful and functional
@@ -98,263 +123,297 @@
         </div>
 
         <!-- X BTN -->
-        <button class="h-8 w-8 absolute top-8 right-8"  onclick="hideSection('about')">
-          <div class="h-1 w-8 bg-charcoal-gray rotate-45 relative top-3"></div>
-          <div class="h-1 w-8 bg-charcoal-gray -my-1 -rotate-45 relative top-3"></div>
+        <button
+          class="h-8 w-8 absolute top-4 right-7 max-s:h-5 max-s:w-5 max-s:right-3"
+          onclick="hideSection('about')"
+        >
+          <div
+            class="h-1 w-full bg-charcoal-gray rotate-45 relative top-3"
+          ></div>
+          <div
+            class="h-1 w-full bg-charcoal-gray -my-1 -rotate-45 relative top-3"
+          ></div>
         </button>
       </section>
 
-<!-- SKILLS -->
+      <!-- SKILLS -->
       <section class="mySections" id="skills">
         <div class="absolute w-full">
           <img
             src="./img/title_bg_dark.png"
             alt="title background"
-            class="max-2xl:w-96 max-md:w-64 mx-auto"
+            class="max-2xl:w-96 max-md:w-64 max-sm:w-48 mx-auto"
           />
         </div>
         <div
-          class="text-rosy-brown font-el-messiri font-semibold text-7xl max-2xl:text-5xl max-md:text-4xl text-center h-1/4 max-2xl:h-1/6 max-md:h-24 w-full absolute pt-20 max-2xl:pt-[3.2rem] max-md:pt-8"
+          class="text-rosy-brown font-el-messiri font-semibold text-7xl max-2xl:text-5xl max-md:text-4xl text-center h-1/4 max-2xl:h-1/6 max-md:h-24 w-full absolute pt-20 max-2xl:pt-[3.2rem] max-md:pt-8 max-sm:text-2xl max-sm:pt-6"
         >
           Skills
         </div>
         <div
           class="relative mx-auto top-64 grid grid-cols-2 gap-x-60 max-2xl:top-48 max-2xl:gap-x-32 max-xl:top-40 max-xl:gap-x-20 max-md:top-32 max-md:block max-sm:top-24 w-3/5 max-2xl:w-4/5"
         >
+          <!-- HTML -->
           <div class="pb-5">
             <div
               class="font-el-messiri text-4xl max-2xl:text-2xl max-md:text-xl mb-2"
             >
               HTML
             </div>
-            <div class="w-full h-10 max-2xl:h-9 bg-gray rounded-full">
-              <div class="h-full w-5/6 bg-charcoal-gray rounded-s-full"></div>
+            <div class="progress_container">
+              <div class="progress w-5/6"></div>
             </div>
           </div>
+          <!-- CSS -->
           <div class="pb-5">
             <div
               class="font-el-messiri text-4xl max-2xl:text-2xl max-md:text-xl mb-2"
             >
               CSS
             </div>
-            <div class="w-full h-10 max-2xl:h-9 bg-gray rounded-full">
-              <div class="h-full w-4/5 bg-charcoal-gray rounded-s-full"></div>
+            <div class="progress_container">
+              <div class="progress w-4/5"></div>
             </div>
           </div>
+          <!-- JS -->
           <div class="pb-5">
             <div
               class="font-el-messiri text-4xl max-2xl:text-2xl max-md:text-xl mb-2"
             >
               JavaScript
             </div>
-            <div class="w-full h-10 max-2xl:h-9 bg-gray rounded-full">
-              <div class="h-full w-3/5 bg-charcoal-gray rounded-s-full"></div>
+            <div class="progress_container">
+              <div class="progress w-3/5"></div>
             </div>
           </div>
+          <!-- VUE -->
           <div class="pb-5">
             <div
               class="font-el-messiri text-4xl max-2xl:text-2xl max-md:text-xl mb-2"
             >
               VueJs
             </div>
-            <div class="w-full h-10 max-2xl:h-9 bg-gray rounded-full">
-              <div class="h-full w-1/5 bg-charcoal-gray rounded-s-full"></div>
+            <div class="progress_container">
+              <div class="progress w-1/5"></div>
             </div>
           </div>
+          <!-- TAILWIND -->
           <div class="pb-5">
             <div
               class="font-el-messiri text-4xl max-2xl:text-2xl max-md:text-xl mb-2"
             >
               Tailwind
             </div>
-            <div class="w-full h-10 max-2xl:h-9 bg-gray rounded-full">
-              <div class="h-full w-2/5 bg-charcoal-gray rounded-s-full"></div>
+            <div class="progress_container">
+              <div class="progress w-2/5"></div>
             </div>
           </div>
+          <!-- GIT -->
           <div class="pb-5">
             <div
               class="font-el-messiri text-4xl max-2xl:text-2xl max-md:text-xl mb-2"
             >
               Git/GitHub
             </div>
-            <div class="w-full h-10 max-2xl:h-9 bg-gray rounded-full">
-              <div class="h-full w-3/5 bg-charcoal-gray rounded-s-full"></div>
+            <div class="progress_container">
+              <div class="progress w-3/5"></div>
             </div>
           </div>
+          <!-- FIGMA -->
           <div class="pb-5">
             <div
               class="font-el-messiri text-4xl max-2xl:text-2xl max-md:text-xl mb-2"
             >
               Figma
             </div>
-            <div class="w-full h-10 max-2xl:h-9 bg-gray rounded-full">
-              <div class="h-full w-3/5 bg-charcoal-gray rounded-s-full"></div>
+            <div class="progress_container">
+              <div class="progress w-3/5"></div>
             </div>
           </div>
+          <!-- CANVA -->
           <div class="pb-5">
             <div
               class="font-el-messiri text-4xl max-2xl:text-2xl max-md:text-xl mb-2"
             >
               Canva
             </div>
-            <div class="w-full h-10 max-2xl:h-9 bg-gray rounded-full">
-              <div class="h-full w-3/5 bg-charcoal-gray rounded-s-full"></div>
+            <div class="progress_container">
+              <div class="progress w-3/5"></div>
             </div>
           </div>
+          <!-- AFFINITY -->
           <div class="pb-5">
             <div
               class="font-el-messiri text-4xl max-2xl:text-2xl max-md:text-xl mb-2"
             >
               Affinity
             </div>
-            <div class="w-full h-10 max-2xl:h-9 bg-gray rounded-full">
-              <div class="h-full w-1/5 bg-charcoal-gray rounded-s-full"></div>
+            <div class="progress_container">
+              <div class="progress w-1/5"></div>
             </div>
           </div>
         </div>
 
         <!-- X BTN -->
-        <button class="h-8 w-8 absolute top-8 right-8" onclick="hideSection('skills')">
-          <div class="h-1 w-8 bg-charcoal-gray rotate-45 relative top-3"></div>
-          <div class="h-1 w-8 bg-charcoal-gray -my-1 -rotate-45 relative top-3"></div>
+        <button
+          class="h-8 w-8 absolute top-4 right-7 max-s:h-5 max-s:w-5 max-s:right-3"
+          onclick="hideSection('skills')"
+        >
+          <div
+            class="h-1 w-full bg-charcoal-gray rotate-45 relative top-3"
+          ></div>
+          <div
+            class="h-1 w-full bg-charcoal-gray -my-1 -rotate-45 relative top-3"
+          ></div>
         </button>
       </section>
 
-<!-- PORTFOLIO -->
+      <!-- PORTFOLIO -->
       <section class="mySections" id="portfolio">
         <div class="absolute w-full">
           <img
             src="./img/title_bg_dark.png"
             alt="title background"
-            class="max-2xl:w-96 max-md:w-64 mx-auto"
+            class="max-2xl:w-96 max-md:w-64 max-sm:w-48 mx-auto"
           />
         </div>
         <div
-          class="text-rosy-brown font-el-messiri font-semibold text-7xl max-2xl:text-5xl max-md:text-4xl text-center h-1/4 max-2xl:h-1/6 max-md:h-24 w-full absolute pt-20 max-2xl:pt-[3.2rem] max-md:pt-8"
+          class="text-rosy-brown font-el-messiri font-semibold text-7xl max-2xl:text-5xl max-md:text-4xl text-center h-1/4 max-2xl:h-1/6 max-md:h-24 w-full absolute pt-20 max-2xl:pt-[3.2rem] max-md:pt-8 max-sm:text-2xl max-sm:pt-6"
         >
           Portfolio
         </div>
 
         <!-- CONTAINER -->
-        <div class="relative top-64 max-2xl:top-40 max-md:top-28">
-          <div
-            class="grid grid-cols-[4rem_auto_4rem] w-[90rem] mx-auto max-2xl:w-full"
-          >
-            <!-- BTN -->
-            <button
-              onclick="plusSlides(-1)"
-              class="h-24 w-16 relative top-56 text-6xl text-charcoal-gray hover:bg-charcoal-gray hover:text-rosy-brown rounded-s-md transition-colors duration-500"
-            >
-              &#10094;
-            </button>
+        <div
+          class="relative top-64 max-2xl:top-40 max-md:top-28 overflow-hidden"
+        >
             <!-- First slide -->
 
-            <!-- IMAGE -->
-            <div class="h-[33rem] w-full overflow-scroll mySlides fade">
-              <!-- CAPTION -->
-              <div
-                class="w-full mx-auto text-center z-50 py-4 absolute top-[33rem] right-0"
-              >
-                <div class="font-el-messiri text-2xl">Biohacker Life</div>
-                <div>Webpage for a fictional company, Biohacker Life.</div>
+            <!-- CAPTION -->
+            <div class="w-full mx-auto text-center z-50 mySlides fade">
+              <div class="font-el-messiri text-2xl">Biohacker Life</div>
+              <div class="max-sm:text-xs">
+                Webpage for a fictional company, Biohacker Life.
               </div>
-              <img src="./img/biohacker.png" alt="biohacker" />
+              <!-- IMAGE -->
+              <div class="h-[33rem] w-full overflow-scroll my-2">
+                <img src="./img/biohacker.png" alt="biohacker" />
+              </div>
             </div>
 
             <!-- Second slide -->
 
-            <!-- IMAGE -->
-            <div class="h-[33rem] w-full overflow-scroll mySlides fade">
-              <!-- CAPTION -->
-              <div
-                class="w-full mx-auto text-center z-50 py-4 absolute top-[33rem] right-0"
-              >
-                <div class="font-el-messiri text-2xl">Enigma</div>
-                <div>Webpage for a fictional escape room, Enigma.</div>
+            <!-- CAPTION -->
+            <div class="w-full mx-auto text-center z-50 mySlides fade">
+              <div class="font-el-messiri text-2xl">Enigma</div>
+              <div class="max-sm:text-xs">
+                Webpage for a fictional escape room, Enigma.
               </div>
-              <img src="./img/enigma.png" alt="biohacker" />
+              <!-- IMAGE -->
+              <div class="h-[33rem] w-full overflow-scroll my-2">
+                <img src="./img/enigma.png" alt="biohacker" />
+              </div>
             </div>
 
             <!-- Third slide -->
 
-            <!-- IMAGE -->
-            <div class="h-[33rem] w-full overflow-scroll mySlides fade">
-              <!-- CAPTION -->
-              <div
-                class="w-full mx-auto text-center z-50 py-4 absolute top-[33rem] right-0"
-              >
-                <div class="font-el-messiri text-2xl">Pepper Design</div>
-                <div>
-                  Webpage for a fictional freelance interior designer, Pepper
-                  Design.
-                </div>
+            <!-- CAPTION -->
+            <div class="w-full mx-auto text-center z-50 mySlides fade">
+              <div class="font-el-messiri text-2xl">Pepper Design</div>
+              <div class="max-sm:text-xs">
+                Webpage for a fictional freelance interior designer, Pepper
+                Design.
               </div>
-              <img src="./img/pepper.png" alt="biohacker" />
+              <!-- IMAGE -->
+              <div class="h-[33rem] w-full overflow-scroll my-2">
+                <img src="./img/pepper.png" alt="biohacker" />
+              </div>
             </div>
 
             <!-- Fourth slide -->
 
-            <!-- IMAGE -->
-            <div class="h-[33rem] w-72 mx-auto overflow-scroll mySlides fade">
-              <!-- CAPTION -->
-              <div
-                class="w-full mx-auto text-center z-50 py-4 absolute top-[33rem] right-0"
-              >
-                <div class="font-el-messiri text-2xl">Kavezo</div>
-                <div>Instagram story for a fictional cafe.</div>
+            <!-- CAPTION -->
+            <div class="w-full mx-auto text-center z-50 mySlides fade">
+              <div class="font-el-messiri text-2xl">Kavezo</div>
+              <div class="max-sm:text-xs">
+                Instagram story for a fictional cafe.
               </div>
-              <img src="./img/kavezo.png" alt="biohacker" />
+              <!-- IMAGE -->
+              <div
+                class="h-[33rem] w-72 my-2 max-s:w-48 max-xs:w-32 mx-auto overflow-scroll"
+              >
+                <img src="./img/kavezo.png" alt="biohacker" />
+              </div>
             </div>
 
             <!-- Fifth slide -->
 
-            <!-- IMAGE -->
-            <div class="h-[33rem] w-72 mx-auto overflow-scroll mySlides fade">
-              <!-- CAPTION -->
-              <div
-                class="w-full mx-auto text-center z-50 py-4 absolute top-[33rem] right-0"
-              >
-                <div class="font-el-messiri text-2xl">Liba</div>
-                <div>Instagram story for a fictional restaurant.</div>
+            <!-- CAPTION -->
+            <div class="w-full mx-auto text-center z-50 mySlides fade">
+              <div class="font-el-messiri text-2xl">Liba</div>
+              <div class="max-sm:text-xs">
+                Instagram story for a fictional restaurant.
               </div>
-              <img src="./img/liba.png" alt="biohacker" />
+              <!-- IMAGE -->
+              <div
+                class="h-[33rem] w-72 my-2 max-s:w-48 max-xs:w-32 mx-auto overflow-scroll"
+              >
+                <img src="./img/liba.png" alt="biohacker" />
+              </div>
             </div>
-
-            <!-- BTN -->
-            <button
-              onclick="plusSlides(1)"
-              class="h-24 w-16 relative top-56 text-6xl text-charcoal-gray hover:bg-charcoal-gray hover:text-rosy-brown rounded-e-md transition-colors duration-500"
-            >
-              &#10095;
-            </button>
-          </div>
+            
+          <!-- BTN -->
+          <button
+            onclick="plusSlides(-1)"
+            class="prev"
+          >
+            &#10094;
+          </button>
+          <!-- BTN -->
+          <button
+            onclick="plusSlides(1)"
+            class="next"
+          >
+            &#10095;
+          </button>
         </div>
 
         <!-- X BTN -->
-        <button class="h-8 w-8 absolute top-8 right-8" onclick="hideSection('portfolio')">
-          <div class="h-1 w-8 bg-charcoal-gray rotate-45 relative top-3"></div>
-          <div class="h-1 w-8 bg-charcoal-gray -my-1 -rotate-45 relative top-3"></div>
+        <button
+          class="h-8 w-8 absolute top-4 right-7 max-s:h-5 max-s:w-4 max-s:right-3"
+          onclick="hideSection('portfolio')"
+        >
+          <div
+            class="h-1 w-full bg-charcoal-gray rotate-45 relative top-3"
+          ></div>
+          <div
+            class="h-1 w-full bg-charcoal-gray -my-1 -rotate-45 relative top-3"
+          ></div>
         </button>
       </section>
 
-<!-- CONTACT -->
+      <!-- CONTACT -->
       <section class="mySections" id="contact">
         <div class="absolute w-full">
           <img
             src="./img/title_bg_dark.png"
             alt="title background"
-            class="max-2xl:w-96 max-md:w-64 mx-auto"
+            class="max-2xl:w-96 max-md:w-64 max-sm:w-48 mx-auto"
           />
         </div>
         <div
-          class="text-rosy-brown font-el-messiri font-semibold text-7xl max-2xl:text-5xl max-md:text-4xl text-center h-1/4 max-2xl:h-1/6 max-md:h-24 w-full absolute pt-20 max-2xl:pt-[3.2rem] max-md:pt-8"
+          class="text-rosy-brown font-el-messiri font-semibold text-7xl max-2xl:text-5xl max-md:text-4xl text-center h-1/4 max-2xl:h-1/6 max-md:h-24 w-full absolute pt-20 max-2xl:pt-[3.2rem] max-md:pt-8 max-sm:text-2xl max-sm:pt-6"
         >
           Contact
         </div>
-        <div class="relative text-center top-96 text-5xl max-2xl:top-64 max-2xl:text-4xl max-xl:top-52 max-xl:text-3xl max-md:top-40 max-sm:top-32 max-sm:text-2xl">
+        <div
+          class="relative text-center top-96 text-5xl max-2xl:top-64 max-2xl:text-4xl max-xl:top-52 max-xl:text-3xl max-md:top-40 max-sm:top-32 max-sm:text-2xl"
+        >
           <div class="py-8 max-2xl:py-6 max-md:py-4 max-sm:py-2">
             <div class="fa-solid fa-envelope"></div>
-            <a href="mailto:bacsurv@gmail.com" class="my-2">bacsurv@gmail.com</a>
+            <a href="mailto:bacsurv@gmail.com" class="my-2"
+              >bacsurv@gmail.com</a
+            >
           </div>
           <div class="py-8 max-2xl:py-6 max-md:py-4 max-sm:py-2">
             <div class="fa-brands fa-github"></div>
@@ -365,9 +424,16 @@
             <a href="http://linkedin.com/in/bacsurv">linkedin.com/in/bacsurv</a>
           </div>
         </div>
-        <button class="h-8 w-8 absolute top-8 right-8" onclick="hideSection('contact')">
-          <div class="h-1 w-8 bg-charcoal-gray rotate-45 relative top-3"></div>
-          <div class="h-1 w-8 bg-charcoal-gray -my-1 -rotate-45 relative top-3"></div>
+        <button
+          class="h-8 w-8 absolute top-4 right-7 max-s:h-5 max-s:w-5 max-s:right-3"
+          onclick="hideSection('contact')"
+        >
+          <div
+            class="h-1 w-full bg-charcoal-gray rotate-45 relative top-3"
+          ></div>
+          <div
+            class="h-1 w-full bg-charcoal-gray -my-1 -rotate-45 relative top-3"
+          ></div>
         </button>
       </section>
     </main>
