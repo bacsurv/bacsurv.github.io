@@ -26,14 +26,12 @@ function showSlides(n) {
 function showSection(sectionId) {
     const selectedSection = document.getElementById(sectionId);
     if (selectedSection) {
-        selectedSection.style.display = 'block';
-        document.getElementById('home').style.display = 'none';
+        selectedSection.style.top = 0;
     }
 }
 function hideSection(sectionId) {
     const selectedSection = document.getElementById(sectionId);
     if (selectedSection) {
-        selectedSection.style.display = 'none';
-        document.getElementById('home').style.display = 'block';
+        selectedSection.style.top = '-100%';
     }
 }
