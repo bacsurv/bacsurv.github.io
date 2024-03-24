@@ -1,11 +1,11 @@
+
+//SLIDE CONTROLS
 let slideIndex = 1;
 showSlides(slideIndex);
 
-// Next/previous controls
 function plusSlides(n) {
   showSlides(slideIndex += n);
 }
-
 
 function showSlides(n) {
   let i;
@@ -21,12 +21,11 @@ function showSlides(n) {
 }
 
 
-
-
+//SECTION CONTROLS
 function showSection(sectionId) {
     const selectedSection = document.getElementById(sectionId);
     if (selectedSection) {
-        selectedSection.style.top = 0;
+        selectedSection.style.top = "0%";
     }
 }
 function hideSection(sectionId) {
